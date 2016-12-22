@@ -1,0 +1,48 @@
+/*body {
+    background: tomato;
+    ;
+}
+*/
+
+x-foo{
+    width:100px;
+    height:100px;
+    border: 1px solid red;
+}
+
+my-box::shadow{
+	width:200px;
+	height:300px;
+	border: 1px solid red;
+}
+.box{
+	width:200px;
+	height:300px;
+	border: 1px solid red;
+}
+
+x-product {
+    display: inline-block;
+    float: left;
+    margin: 0.5em;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    font-family: Helvetica, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+x-product::shadow .product-img {
+    cursor: pointer;
+    background: #FFF;
+    margin: 0.5em;
+}
+
+x-product::shadow .product-name {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    border-top: 1px solid #EEE;
+    font-weight: bold;
+    padding: 0.75em 0;
+}
